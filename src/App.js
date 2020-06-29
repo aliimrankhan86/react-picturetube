@@ -14,7 +14,7 @@ const App = () => {
 
   const getobj = obj => {
     const filterobj = data.filter(
-      (objs, index) => objs.name.first === obj.name.first
+      person => person.name.first === obj.name.first
     );
     setobj(filterobj[0]);
   };

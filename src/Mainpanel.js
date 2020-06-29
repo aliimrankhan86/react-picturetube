@@ -4,7 +4,12 @@ const Mainpanel = props => {
   console.log(props.display);
   return (
     <div className="main-panel">
-      {props.display && <img src={props.display.picture.large} />}
+      {props.display && (
+        <div>
+          <h2>{props.display.name.first}</h2>
+          <img src={props.display.picture.large} />
+        </div>
+      )}
     </div>
   );
 };
