@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.right-panel {
+  background: lightblue;
+  width: 33.3%;
+  float: right;
+  height: 100vh;
+}
+
+.main-panel {
+  background: lightgray;
+  width: 66.7%;
+  float: left;
+  height: 100vh;
+}
